@@ -49,6 +49,9 @@ public class DriverClass {
 			generatedPassword = cs.generatePassword();
 			cs.showCredentials(obj, generatedEmail, generatedPassword);
 		}
+		else {
+			System.out.println("please select correct option from above");
+		}
 		
 		sc.close();
 	}
